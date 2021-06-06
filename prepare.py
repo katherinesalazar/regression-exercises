@@ -1,3 +1,13 @@
+# imports for exercises 
+
+import pandas as pd
+import numpy as np
+import env
+import wrangle
+import matplotlib.pyplot as plt
+import sklearn.preprocessing
+from sklearn.model_selection import train_test_split
+
 def Min_Max_Scaler(X_train, X_validate, X_test):
     """
     Takes in X_train, X_validate and X_test dfs with numeric values only
